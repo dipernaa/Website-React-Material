@@ -8,7 +8,7 @@
     "copyFiles": "cp -f ./src/index.html ./src/favicon.ico ./dist",
     "copyImages": "cp -f -R ./src/images ./dist/images",
     "dev": "webpack-dev-server --env start",
-    "start": "npm run build && NODE_ENV=production node server.js"
+    "start": "NODE_ENV=production node server.js"
   },
   "author": "Tony DiPerna",
   "license": "ISC",
@@ -58,7 +58,7 @@
     "sass-loader": "^3.2.0",
     "style-loader": "^0.13.0",
     "url-loader": "^0.5.7",
-    "webpack": "^1.12.14",
+    "webpack": "1.12.14",
     "webpack-dev-server": "^1.14.1"
   }
 }
